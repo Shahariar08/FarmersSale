@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/welcome"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sell">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your name"
+            android:id="@+id/name"/>
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your currnet Division"
+            android:layout_marginTop="50dp"
+            android:id="@+id/farmer_state"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your currnet district"
+            android:layout_marginTop="100dp"
+            android:id="@+id/farmer_district"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your pincode"
+            android:inputType="number"
+            android:layout_marginTop="150dp"
+            android:id="@+id/farmer_pincode"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="commodity like tomato, onion etc."
+            android:layout_marginTop="200dp"
+            android:id="@+id/farmer_commodity"/>
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="time(hours)"
+            android:layout_marginTop="250dp"
+            android:id="@+id/time"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Min price / kg (in tk.)"
+            android:layout_marginTop="300dp"
+            android:id="@+id/farmer_amount"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/key"
+            android:alpha="0"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="total weight(in kg)"
+            android:inputType="number"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="300dp"
+            android:id="@+id/farmer_weight"/>
+
+
+        <Button
+            android:id="@+id/button_choose_image"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="350dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Choose Image"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_above="@id/progress_bar"
+            android:layout_below="@id/submit"
+            android:layout_marginTop="350dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_upload"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="380dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#9B303C"
+            android:text="submit"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

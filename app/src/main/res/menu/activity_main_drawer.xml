@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Latest News" />
+        <item
+            android:id="@+id/Commodity_price"
+            android:icon="@drawable/ic_attach_money_black"
+            android:title="Commodity Price" />
+        <item
+            android:id="@+id/seed"
+            android:icon="@drawable/ic_local_florist_black"
+            android:title="Sell Your Crops" />
+        <item
+            android:id="@+id/buy_seed"
+            android:icon="@drawable/ic_business_center_black"
+            android:title="Buy commodity" />
+    </group>
+
+
+
+</menu>

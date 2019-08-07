@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "665670478041",
+    "firebase_url": "https://farmersassistant-718a6.firebaseio.com",
+    "project_id": "farmersassistant-718a6",
+    "storage_bucket": "farmersassistant-718a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665670478041:android:51322e4cc1b1dc43",
+        "android_client_info": {
+          "package_name": "com.example.Restinpeace.farmerassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665670478041-v0g4inattfhdqu0vubfgavu1p1un5f59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Restinpeace.farmerassistant",
+            "certificate_hash": "9b6a993e83b5fd343f9ebbef7595d23978317105"
+          }
+        },
+        {
+          "client_id": "665670478041-srjktch256mmt5840st7o6a94d4v8ra4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtqaaetp0fgLUG_OJgUzwqKd7Qjyn40aA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665670478041-srjktch256mmt5840st7o6a94d4v8ra4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
